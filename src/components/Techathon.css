@@ -1,0 +1,132 @@
+
+
+.container-about {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-start;
+  
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  /* max-width: 1200px; */
+  /* margin: 20px auto; */
+  /* added */
+  flex-direction: column;
+  align-items: center;
+}
+
+.content-about {
+  flex: 1 1 60%;
+  /* margin-right: 20px; */
+  /* added */
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.content-about h1 {
+  color: #040752;
+  text-align: center;
+
+  /* added */
+  font-size: 4rem;
+  font-weight: bold;
+}
+
+.content-about h2 {
+  color: #004080;
+  margin-top: 20px;
+  /* added */
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.content-about ul {
+  list-style-type: none;
+  padding: 0;
+  /* added */
+  margin: 0;
+}
+
+.content-about li {
+  margin: 10px 0;
+  /* added */
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+}
+
+.section-about {
+  margin-bottom: 20px;
+  /* added */
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.402);
+}
+
+.poster {
+  /* flex: 1 1 35%; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* added */
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.poster-about img {
+  max-width: 40%;
+  height: 40%;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  /* added */
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+
+@media (max-width: 768px) {
+  .container-about {
+    flex-direction: column;
+    align-items: center;
+  }
+  .content-about {
+    margin-right: 0;
+    margin-bottom: 20px;
+    padding: 20px;
+  }
+  .poster-about {
+    width: 100%;
+    padding: 20px;
+  }
+  .poster-about img {
+    width: 100%;
+    height: 100%;
+  }
+}
+
+/* added */
+@media (max-width: 480px) {
+  .container-about {
+    padding: 10px;
+  }
+  .content-about {
+    padding: 10px;
+  }
+  .poster-about {
+    padding: 10px;
+  }
+  .container-about h1 {
+    font-size: 18px;
+  }
+  .container-about h2 {
+    font-size: 14px;
+  }
+}
+
+

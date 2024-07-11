@@ -1,0 +1,12 @@
+{
+    "videos": [
+      { "id": 1, "title": "Video 1", "url": "https://www.youtube.com/watch?v=abc123" },
+      { "id": 2, "title": "Video 2", "url": "https://www.youtube.com/watch?v=def456" }
+    ],
+    "images": [
+      { "id": 1, "title": "Image 1", "url": "https://example.com/image1.jpg" },
+      { "id": 2, "title": "Image 2", "url": "https://example.com/image2.jpg" },
+      { "id": 3, "title": "Image 3", "url": "https://example.com/image3.jpg" }
+    ]
+  }
+  
