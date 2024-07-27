@@ -1,18 +1,22 @@
 {
   "files": {
-    "main.css": "/techathon3.0/static/css/main.9870287c.css",
-    "main.js": "/techathon3.0/static/js/main.f65f7b8b.js",
+    "main.css": "/techathon3.0/static/css/main.62bc9edd.css",
+    "main.js": "/techathon3.0/static/js/main.c578d559.js",
     "static/media/3129957-uhd_3840_2160_25fps.mp4": "/techathon3.0/static/media/3129957-uhd_3840_2160_25fps.a2703484bb9eee7d0c2e.mp4",
     "static/media/2857280.jpg": "/techathon3.0/static/media/2857280.33f404bdb4fbd3a26274.jpg",
     "static/media/image.png": "/techathon3.0/static/media/image.bdfbf2d5530146a9f1cd.png",
+    "static/media/img4.jpg": "/techathon3.0/static/media/img4.3ee2b7076dc690a6042e.jpg",
     "static/media/WhatsApp_Image_2024-07-11_at_02.22.16_e80e6850-removebg-preview.png": "/techathon3.0/static/media/WhatsApp_Image_2024-07-11_at_02.22.16_e80e6850-removebg-preview.6e8af68dd49245bba0f0.png",
+    "static/media/img3.jpg": "/techathon3.0/static/media/img3.2ec122f5be22ac503e14.jpg",
+    "static/media/img5.jpg": "/techathon3.0/static/media/img5.7f42524cd78dfbf5c2bb.jpg",
+    "static/media/img7.jpg": "/techathon3.0/static/media/img7.e9782578e6b3f4eedf5d.jpg",
     "static/media/ecesoc.png": "/techathon3.0/static/media/ecesoc.cdc72d1a9d07c4c97a5b.png",
     "index.html": "/techathon3.0/index.html",
-    "main.9870287c.css.map": "/techathon3.0/static/css/main.9870287c.css.map",
-    "main.f65f7b8b.js.map": "/techathon3.0/static/js/main.f65f7b8b.js.map"
+    "main.62bc9edd.css.map": "/techathon3.0/static/css/main.62bc9edd.css.map",
+    "main.c578d559.js.map": "/techathon3.0/static/js/main.c578d559.js.map"
   },
   "entrypoints": [
-    "static/css/main.9870287c.css",
-    "static/js/main.f65f7b8b.js"
+    "static/css/main.62bc9edd.css",
+    "static/js/main.c578d559.js"
   ]
 }
