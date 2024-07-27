@@ -36,7 +36,7 @@ export const Gallery = ({ data }) => {
   }, []);
 
   return (
-    <div className="gallery">
+    <div className="gallery" id="gg">
      
       {data.map((item, index) => (
         <div

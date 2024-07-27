@@ -1,0 +1,161 @@
+/* Base styles for all elements */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: #eeeeea;
+}
+
+/* Base styles for the card */
+.card {
+    width: 90%; /* Default width for small screens */
+    max-width: 300px; /* Max width to ensure cards don't get too wide */
+    height: 40rem; /* Fixed height for the card */
+    border-radius: 2rem; /* Rounded corners */
+    background-size: cover; /* Ensure the background image covers the card */
+    background-position: center; /* Center the background image */
+    cursor: pointer; /* Pointer cursor on hover */
+    overflow: hidden; /* Hide any overflow content */
+    margin: 10px; /* Center card with auto margins */
+    display: flex;
+    align-items: center; /* Align content to the center */
+    justify-content: center;
+    transition: .1s cubic-bezier(.28,-0.03,0,.99), transform 0.4s ease, box-shadow 0.4s ease; /* Smooth transition effect */
+    box-shadow: 0px 10px 30px -5px rgba(0,0,0,0.8); /* Shadow effect */
+    padding: 10px;
+    backdrop-filter: blur(20px);
+      
+  
+}
+
+/* Flex container for content inside the card */
+.card > .row {
+    color: rgb(14, 1, 1);
+    display: flex;
+    flex-direction: column; /* Stack content vertically */
+    justify-content: end;
+    align-items: center; /* Center content horizontally */
+    width: 100%; /* Full width of the card */
+    text-align: center; /* Center text */
+}
+
+/* Icon styling inside the card */
+.card > .row > .icon {
+    background: #223; /* Dark background for icon */
+    color: white; /* White text color */
+    border-radius: 50%; /* Circular icon */
+    width: 50px; /* Fixed width for icon */
+    height: 50px; /* Fixed height for icon */
+    display: flex;
+    justify-content: center; /* Center icon horizontally */
+    align-items: center; /* Center icon vertically */
+    margin: 15px; /* Margin around the icon */
+}
+
+/* Description text styling */
+.card > .row > .description {
+    display: flex;
+    flex-direction: column; /* Stack text vertically */
+    align-items: center; /* Center text horizontally */
+    justify-content: flex-end; /* Align text to the bottom */
+    overflow: hidden;
+    margin-top: 25px;
+}
+
+/* Description text styles */
+.description p {
+    color: #01010e; /* Light gray color for paragraph */
+    padding-top: 8px; /* Space above paragraph */
+}
+
+.description h4 {
+    text-transform: uppercase; /* Uppercase text */
+    color: rgb(237, 230, 230);
+    
+    border: solid white 1px;
+    background: #2d2c2c37;
+    backdrop-filter: blur(20px);
+}
+    
+
+
+.description a {
+    text-transform: uppercase; /* Uppercase text */
+    color: #f3f8fc; /* Link color */
+    text-decoration: none; /* Remove underline */
+    font-weight: bold; /* Bold link text */
+    margin: 10px;
+    padding: 5px;
+    border: solid white 1px;
+    background: #2d2c2c37;
+    backdrop-filter: blur(20px);
+}
+
+/* Background images for different cards */
+.card[for="c1"] {
+    background-image: url('./img1.jpg');
+}
+
+.card[for="c2"] {
+    background-image: url('./img7.jpg');
+}
+
+.card[for="c9"] {
+    background-image: url('./img3.jpg');
+}
+
+.card[for="c4"] {
+    background-image: url('./img4.jpg');
+}
+
+.card[for="c6"] {
+    background-image: url('./img5.jpg');
+}
+
+.card[for="c5"] {
+    background-image: url('./img6.jpg');
+}
+
+.card[for="c7"] {
+    background-image: url('./img2.jpg'); /* Updated URL */
+}
+card[for="c8"] {
+    background-image: url('./img1.jpg'); /* Updated URL */
+}
+card[for="c3"] {
+    background-image: url('./img7.jpg'); /* Updated URL */
+}
+card[for="c10"] {
+    background-image: url('./img2.jpg'); /* Updated URL */
+}
+
+/* Hover effect */
+.card:hover {
+    transform: scale(1.05); /* Slightly enlarge the card */
+    box-shadow: 0px 15px 40px -5px rgba(0,0,0,0.9); /* Increase shadow effect */
+    border: solid white 3px;
+}
+
+/* Responsive styles */
+@media (min-width: 576px) {
+    .card {
+        width: 45%; /* Adjust width for medium screens */
+        max-width: none; /* Remove max-width for medium screens */
+    }
+}
+
+@media (min-width: 768px) {
+    .card {
+        width: 30%; /* Adjust width for larger screens */
+    }
+}
+
+@media (min-width: 992px) {
+    .card {
+        width: 25%; /* Adjust width for extra-large screens */
+    }
+}

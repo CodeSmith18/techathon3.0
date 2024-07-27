@@ -1,0 +1,68 @@
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: #eeeeea;
+}
+
+.containerrr{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: rgb(1, 0, 16);
+    background: linear-gradient(299deg, rgba(2,0,36,1) 0%, rgba(34,19,96,1) 0%, rgb(0, 140, 255) 100%);
+}
+.containerrr h2{
+    color:white;
+    margin: 10px;
+    padding: auto;
+}
+
+.containerrr .c33 {
+  
+    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center; /* Center align cards vertically in the container */
+    overflow-x: auto; /* Allows horizontal scrolling if cards overflow */
+     /* Added padding to ensure space around the container */
+    /* margin: 10px;  */
+   
+
+}
+/* Responsive Styles */
+@media (max-width: 1200px) {
+    .containerrr .c33{
+        height: 100%; /* Slightly reduced height for large tablets and smaller desktops */
+    }
+}
+
+@media (max-width: 992px) {
+    .containerrr .c33 {
+        height: 100%;; /* Reduced height for medium devices */
+    }
+}
+
+@media (max-width: 768px) {
+    .containerrr .c33{
+        height: 100%; /* Reduced height for smaller screens */
+        flex-direction: row; /* Ensure horizontal alignment of cards */
+        padding: 0 5px; /* Reduced padding for smaller screens */
+    }
+}
+
+@media (max-width: 576px) {
+    .containerrr .c33{
+        height: 50%; /* Further reduced height for very small screens */
+        padding: 0 5px; /* Consistent padding for very small screens */
+    }
+}
+
+

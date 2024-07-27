@@ -4,7 +4,7 @@ import "./Techathon.css";
 
 export const About = (props) => {
   return (
-    <div className="container-about">
+    <div className="container-about" id="about">
       <div className="content-about">
       <h1>Techathon: "Smart Synergy" - AI Empowering ECE Innovation</h1>
       <div className="section-about">
@@ -40,7 +40,7 @@ export const About = (props) => {
      
       </div>
       
-      <h1>Techathon 2.0 Winners and Speakers</h1>
+     
     </div>
   );
 };
